@@ -1,5 +1,5 @@
 var header = "<style type='text/css'>.wrapper {max-width: 90% !important;}.col-md-9.col-md-push-3 {left: 0;}.section-heading {color: #bf2e1a !important;font-weight:400;}.subpage-menu {display:none !important;}</style><div class='page-wrapper'></div>";
-document.querySelector('body').innerHTML += header
+document.querySelector('.subpage-content').innerHTML += header
   gsheets.getWorksheet('1mrle0mhDNHT98JIcf_cyxuke45lgrCUMl8O4gp__qIQ', "Landing Page")
     .then(res => {
         res = res.data;

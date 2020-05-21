@@ -16,7 +16,6 @@ document.querySelector('.subpage-content').innerHTML += pageContent
               { "data": "Description", "targets": 2 },
               { "data": "Subcategory", "targets": 0 },
               { "data": "Source", "targets": 3 },
-              { "data": "Shared when?", "targets": 4 },
           
             ]
               } );

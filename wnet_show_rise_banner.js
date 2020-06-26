@@ -1,0 +1,1 @@
+var showRiseUpBanner = setInterval(function(){ (document.getElementById('riseUp') ? showBanner() : '') }, 1000);function showBanner(){document.getElementById('riseUp').style.display = 'block';clearInterval(showRiseUpBanner)}showRiseUpBanner

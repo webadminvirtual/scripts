@@ -687,3 +687,72 @@ margin-bottom: 25px;
 .pc-tab ul li label {
 padding: 5px 15px !important}
 }
+@media only screen and (max-width: 800px) {
+              ul.gap-25.grid.mini-nav {
+                  grid-template-columns: auto auto !Important;
+              }
+
+              .grid-2 {
+                  grid-template-columns: auto;
+              }
+
+              .hover-special.upper {
+                  background: #303030;
+                  padding-right: 12px !IMPORTANT;
+              }
+
+              ul.logos-items {
+                  grid-template-columns: auto !IMPORTANT;
+              }
+
+              li.stand-out a {
+                  transform: none !IMPORTANT;
+                  box-shadow: 0px 0px 8px #cabebe !important;
+                  font-weight: normal !IMPORTANT;
+                  background: #b62a16 !IMPORTANT;
+              }
+
+              ul.mini-nav li {
+                  padding: 0px;
+              }
+
+              .stand-out a {
+                  color: #ffffff !important;
+              }
+
+              table#planningcom th {
+                  width: 24%;
+              }
+
+              table#planningcom {
+                  display: none;
+              }
+
+              div#price-blocks .inner-cost h4 {
+                  display: none;
+              }
+
+              .inner-cost div {
+                  padding: 10px 0px;
+                  font-family: roboto;
+              }
+          }
+
+          table,
+          th,
+          td {
+              border: 1px solid black;
+              border-collapse: collapse;
+
+          }
+
+          td {
+              padding: 5px;
+              min-width: 190px;
+          }
+
+          tr.blank,
+          tr.blank td {
+              border-left: 1px solid white;
+              border-right: 1px solid white;
+          }

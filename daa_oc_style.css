@@ -770,3 +770,7 @@ ul.border li {
 .text-red {
   color: #rgb(209, 72, 65);
 }
+.border li {
+    display: grid;
+    grid-template-columns: 31% 20% auto;
+}

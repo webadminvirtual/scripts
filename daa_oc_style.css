@@ -30,6 +30,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   padding-bottom: 5px;
+  padding-top: 10px;
 }
 
 .pc-tab ul li label {

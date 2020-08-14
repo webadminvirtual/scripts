@@ -771,3 +771,6 @@ ul.border li {
   padding-top: 20px;
   padding-bottom: 10px;
 }
+.text-red {
+  color: #rgb(209, 72, 65);
+}

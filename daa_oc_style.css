@@ -49,6 +49,9 @@
       list-style: none;
       margin: 0;
       padding: 0;
+      background: #eee;
+      display: flex;
+      justify-content: space-between;
   }
 
   .pc-tab ul li label {
@@ -72,6 +75,13 @@
       border-right-width: 0;
   }
 
+.register-label {
+padding: 0px;
+  padding-top: 5px;
+  border: none;
+}
+.register-label a {
+display: block-ruby !important;}
   .pc-tab section {
       clear: both;
   }

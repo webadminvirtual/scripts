@@ -761,6 +761,7 @@ tr.blank td {
 ul.border {
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
 ul.border li {
   border-bottom: 1px solid black;
@@ -768,7 +769,7 @@ ul.border li {
   padding-bottom: 10px;
 }
 .text-red {
-  color: #rgb(209, 72, 65);
+  color: rgb(209, 72, 65) !important;
 }
 .border li {
     display: grid;

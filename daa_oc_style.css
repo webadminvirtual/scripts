@@ -754,3 +754,7 @@ padding: 5px 15px !important}
               border-left: 1px solid white;
               border-right: 1px solid white;
           }
+.tab3 img {
+    float: left;
+    margin-right: 10px;
+}

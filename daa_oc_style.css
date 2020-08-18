@@ -781,4 +781,8 @@ ul.border li {
     display: grid !important;
     grid-template-columns: auto auto auto;
   }
+  .hover-special {
+    font-size: 13px !important;
+    padding: 12px !important;
+  }
 }

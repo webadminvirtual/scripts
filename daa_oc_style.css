@@ -777,7 +777,7 @@ ul.border li {
     grid-template-columns: 31% 20% auto;
 }
 @media (max-width:800px) {
-  .pc-tab ul {
+  .pc-tab ul:not(.border) {
     display: grid !important;
     grid-template-columns: auto auto auto;
   }

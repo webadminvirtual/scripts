@@ -776,3 +776,9 @@ ul.border li {
     display: grid;
     grid-template-columns: 31% 20% auto;
 }
+@media (max-width:800px) {
+  ul {
+    display: grid !important;
+    grid-template-columns: auto auto auto;
+  }
+}
